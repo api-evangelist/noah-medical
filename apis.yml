@@ -1,8 +1,26 @@
 aid: noah-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noah-medical.png
 name: Noah Medical
-description: 'Noah Medical is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Noah Medical is a surgical robotics company building the Galaxy System,
+  a robotic-assisted bronchoscopy platform for interventional pulmonology. The system
+  combines advanced imaging, precision targeting, single-use scope technology, and
+  an adaptive workflow to deliver "tool-in-lesion" confidence for diagnosing lung
+  nodules, improving diagnostic yield and workflow efficiency for physicians. Noah
+  Medical is a medical-device manufacturer focused on clinical hardware and does not
+  currently expose a public developer platform, API, or documentation surface; it
+  was added to the API Evangelist network as a healthcare portfolio company backed
+  by Hongshan (HongShan Capital / formerly Sequoia China).'
 url: https://raw.githubusercontent.com/api-evangelist/noah-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Surgical Robotics
+- Robotics
+- Bronchoscopy
+- Interventional Pulmonology
+- MedTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/noah-medical-domain-security.yml
 - type: Website
   url: https://noahmed.com
+- type: Blog
+  url: https://www.noahmed.com/insights
+- type: Support
+  url: https://www.noahmed.com/contact-us
+- type: TermsOfService
+  url: https://www.noahmed.com/website-terms-of-use
+- type: PrivacyPolicy
+  url: https://www.noahmed.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
